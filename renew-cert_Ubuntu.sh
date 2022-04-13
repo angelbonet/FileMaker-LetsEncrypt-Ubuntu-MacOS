@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# MODIFIED VERSION FROM https://github.com/jon91/FileMaker-LetsEncrypt-CentOS-7
+# --- Adapted for Ubuntu and Mac OS
+
 # Enter the path to your FileMaker Server directory, ending in a slash 
 SERVER_PATH="/opt/FileMaker/FileMaker Server/"
 
@@ -31,8 +34,5 @@ fmsadmin certificate delete --yes -u ${FMADMIN} -p ${FMPASS}
 # Install the certificate
 fmsadmin certificate import "${SERVER_PATH}CStore/fullchain.pem" --keyfile "${SERVER_PATH}CStore/privkey.pem" -y -u ${FMADMIN} -p ${FMPASS}
 
-# Stop FM service
-sudo service fmshelper stop
-
-# Start FM service
-sudo service fmshelper start
+# Restart FM service Ubuntu
+sudo service fmshelper restart
