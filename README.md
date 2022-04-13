@@ -30,3 +30,6 @@ Original Script (Mac): https://github.com/BlueFeatherGroup/FileMaker-LetsEncrypt
 
 Modified with help from: https://the.fmsoup.org/t/use-of-free-letsencrypt-ssl-certificates-with-fms/1019/7
 ` --- changed serverKey path`
+
+Modified from https://github.com/jon91/FileMaker-LetsEncrypt-CentOS-7
+` --- Adapted for Ubuntu and MacOS`
