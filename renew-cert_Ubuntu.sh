@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # MODIFIED VERSION FROM https://github.com/jon91/FileMaker-LetsEncrypt-CentOS-7
-# --- Adapted for Ubuntu and Mac OS
+# --- Adapted for Ubuntu
 
 # Enter the path to your FileMaker Server directory, ending in a slash 
 SERVER_PATH="/opt/FileMaker/FileMaker Server/"
