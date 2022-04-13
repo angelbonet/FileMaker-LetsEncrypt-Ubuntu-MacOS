@@ -4,11 +4,12 @@ A bash script for fetching and renewing Let's Encrypt (certbot) certificates for
 
 ### Initial Setup Instructions:
 1. Setup Ubuntu + install FMS
-2. Install `certbot`
-3. download `wget https://raw.githubusercontent.com/jon91/FileMaker-LetsEncrypt-Ubuntu_MacOS/main/get-ssl.sh`
-4. add execution `chmod ./get-ssl.sh`
-5. edit content of script `nano ./get-ssl.sh`
-6. run `sudo ./get-ssl.sh`
+2. Install `Homebrew` only on MacOS
+3. Install `certbot`
+4. download `wget https://raw.githubusercontent.com/jon91/FileMaker-LetsEncrypt-Ubuntu_MacOS/main/get-ssl.sh`
+5. add execution `chmod ./get-ssl.sh`
+6. edit content of script `nano ./get-ssl.sh`
+7. run `sudo ./get-ssl.sh`
 
 
 ### Renewal Setup Instructions:
