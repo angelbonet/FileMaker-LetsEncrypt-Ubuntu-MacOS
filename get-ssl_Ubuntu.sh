@@ -6,7 +6,7 @@
 # --- changed serverKey path
 
 # MODIFIED VERSION FROM https://github.com/jon91/FileMaker-LetsEncrypt-CentOS-7
-# --- Adapted for Ubuntu and Mac OS
+# --- Adapted for Ubuntu
 
 
 # Change the domain variable to the domain/subdomain for which you would like
