@@ -18,7 +18,7 @@ DOMAIN="fms.domain.com"
 EMAIL="email@domain.com"
 
 # Enter the path to your FileMaker Server directory, ending in a slash 
-SERVER_PATH="/opt/FileMaker/FileMaker Server/"
+SERVER_PATH="/Library/FileMaker/FileMaker Server/"
 
 FMADMIN="fmConsoleLogin"
 FMPASS="fmConsolePassword"
